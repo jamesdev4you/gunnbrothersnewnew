@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/gunnbrothersnewnew/static/css/main.fd3e9eb5.css",
+    "main.js": "/gunnbrothersnewnew/static/js/main.83979c4a.js",
+    "static/media/priceestimateimg.jpg": "/gunnbrothersnewnew/static/media/priceestimateimg.7d9e4e58aecd7a73814a.jpg",
+    "static/media/aboutus.jpg": "/gunnbrothersnewnew/static/media/aboutus.8ee9198e91424ef31cfd.jpg",
+    "static/media/ServiceInsulation.jpg": "/gunnbrothersnewnew/static/media/ServiceInsulation.0ab674ad36f2170c47a3.jpg",
+    "static/media/HVAC.jpg": "/gunnbrothersnewnew/static/media/HVAC.f92dc7dd7e82bf24b637.jpg",
+    "static/media/ServiceHvac.jpg": "/gunnbrothersnewnew/static/media/ServiceHvac.f846e474c8bbcf7c604a.jpg",
+    "static/media/Driving.jpg": "/gunnbrothersnewnew/static/media/Driving.f842e930e5b8def83d18.jpg",
+    "static/media/CustomerService.jpg": "/gunnbrothersnewnew/static/media/CustomerService.7bf51773eaab4352b2ab.jpg",
+    "static/media/Insulation.jpg": "/gunnbrothersnewnew/static/media/Insulation.d23f3386c823f6f7b019.jpg",
+    "static/media/HomeBackgound.jpg": "/gunnbrothersnewnew/static/media/HomeBackgound.3e8dda5cbf5252411abb.jpg",
+    "static/media/Service.jpg": "/gunnbrothersnewnew/static/media/Service.180f8bce6f6ee68fffaa.jpg",
+    "static/media/ContactPic.jpg": "/gunnbrothersnewnew/static/media/ContactPic.6d2027801dccf8b1b5a5.jpg",
+    "static/media/thegunnbrothers.jpg": "/gunnbrothersnewnew/static/media/thegunnbrothers.d50454f2ca6c08f869c1.jpg",
+    "static/media/Logo.png": "/gunnbrothersnewnew/static/media/Logo.0ebe3285fbefbd0c40b9.png",
+    "index.html": "/gunnbrothersnewnew/index.html",
+    "main.fd3e9eb5.css.map": "/gunnbrothersnewnew/static/css/main.fd3e9eb5.css.map",
+    "main.83979c4a.js.map": "/gunnbrothersnewnew/static/js/main.83979c4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd3e9eb5.css",
+    "static/js/main.83979c4a.js"
+  ]
+}
