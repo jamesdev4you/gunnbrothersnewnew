@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./index.css";
+import React from "react";
+import Home from "./pageComponents/Home";
+import Contact from "./pageComponents/Contact";
+import PriceEstimate from "./pageComponents/PriceEstimate";
+import Services from "./pageComponents/Services";
+import AboutUs from "./pageComponents/AboutUs";
+import FooterMenu from "./components/FooterMenu";
+import NeedHelp from "./components/NeedHelp";
+import HamburgerMenu from "./components/HamburgerMenu";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import { ThemeProvider } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
+import { Route, Routes } from "react-router-dom";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#000000",
+    },
+    secondary: {
+      main: "#98c1d9",
+    },
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <NeedHelp />
+      <HamburgerMenu color="primary" colors="secondary" />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/serviceestimate" element={<PriceEstimate />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+      </Routes>
+      <FooterMenu />
+    </ThemeProvider>
   );
 }
 
