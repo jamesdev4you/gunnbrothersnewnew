@@ -66,11 +66,12 @@ export default function HamburgerMenu(props) {
       style={{
         backgroundColor: "#c1d8de",
         borderBottom: "1px solid black",
+        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
       }}
       position="sticky"
     >
       <Container maxWidth="xl">
-        <ToolBar disableGutters>
+        <ToolBar disableGutters >
           <Box
             className={styles.Logo}
             component="img"
