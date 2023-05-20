@@ -32,11 +32,14 @@ function App() {
       <NeedHelp />
       <HamburgerMenu color="primary" colors="secondary" />
       <Routes>
+      
         <Route path="/" element={<Home />} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/serviceestimate" element={<PriceEstimate />} />
         <Route path="/services" element={<Services />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/*" element={<AboutUs />} />
       </Routes>
       <FooterMenu />
     </ThemeProvider>
