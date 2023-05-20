@@ -38,7 +38,7 @@ const icons = {
 
 export default function AboutUs() {
   return (
-    <div>
+    <div style={{ paddingBottom: "50px" }}>
       <HeaderImage boxWords={boxWords} src={aboutus} />
       <ToDoComponent
         word={aboutusTitle}

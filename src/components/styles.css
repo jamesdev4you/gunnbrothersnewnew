@@ -62,7 +62,7 @@
   height: 700px;
   background-position: center;
   background-size: cover;
-  border-bottom-right-radius: 10%;
+  border-bottom-right-radius: 100px;
   z-index: 0;
 }
 
@@ -436,6 +436,7 @@
   .header-image {
     justify-content: center;
     width: 100%;
+    border-bottom-right-radius: 0px;
   }
 }
 

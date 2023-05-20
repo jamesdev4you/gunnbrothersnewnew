@@ -64,7 +64,7 @@ const icons = {
 
 export default function Services() {
   return (
-    <div>
+    <div style={{ paddingBottom: "50px" }}>
       <HeaderImage boxWords={boxWords} src={Service} />
       <ToDoComponent
         word={insulationTitle}
