@@ -1,10 +1,6 @@
 {
   "name": "gunn-brothers-new-page",
-<<<<<<< HEAD
   "homepage": "https:/www.gunnbrothershvac.com",
-=======
-  "homepage": "https://gunnbrothershvac.com",
->>>>>>> 7551770fcc84a1d61489f869a0204a51043b15f4
   "version": "0.1.0",
   "private": true,
   "dependencies": {
