@@ -62,7 +62,7 @@ export default function FooterMenu() {
           }}
         >
           <InstagramIcon
-            onClick={(event) => (window.location.href = "#")}
+            onClick={(event) => (window.location.href = "https://www.instagram.com/gunnbrothershvacllc/")}
             style={{
               color: "#95242a",
               width: 100,

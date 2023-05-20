@@ -164,7 +164,7 @@
 }
 
 .home-page-section-grid-and-text-container {
-  width: 30%;
+  width: 25%;
 }
 
 .home-page-section-text-container {
@@ -556,6 +556,13 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .header-line{
+    display: none;
+  }
+}
+
 
 @media screen and (max-width: 380px) {
   .header-image-div {
