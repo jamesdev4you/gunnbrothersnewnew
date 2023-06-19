@@ -161,10 +161,11 @@
   background-position: center;
   background-size: cover;
   border: 3px solid #95242a;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .home-page-section-grid-and-text-container {
-  width: 25%;
+  width: 33%;
 }
 
 .home-page-section-text-container {
@@ -179,13 +180,14 @@
   justify-content: center;
   padding: 0 5px;
   margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .home-page-section-text {
   text-align: center;
   font-family: "Asap Condensed";
   color: #95242a;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* grid */
@@ -268,6 +270,7 @@
   background-position: center;
   background-size: cover;
   border: 3px solid #d4c37c;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .to-do-section-desc-and-list {
@@ -290,6 +293,7 @@
   justify-content: center;
   margin-bottom: 15px;
   padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .to-do-section-desc-text {
@@ -311,7 +315,7 @@
   padding: 15px;
   align-items: center;
   justify-content: center;
-
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: 3px solid #95242a;
 }
 
@@ -558,11 +562,10 @@
 }
 
 @media screen and (max-width: 450px) {
-  .header-line{
+  .header-line {
     display: none;
   }
 }
-
 
 @media screen and (max-width: 380px) {
   .header-image-div {

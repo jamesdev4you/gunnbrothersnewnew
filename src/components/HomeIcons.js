@@ -14,6 +14,8 @@ const useStyles = makeStyles((theme) => ({
     border: "3px solid #95242a",
     backgroundColor: "#c1d8de",
     margin: "auto",
+    boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+    paddingTop: "8px",
   },
   cardActions: {
     display: "flex",
@@ -114,7 +116,10 @@ export default function HomeIcons(props) {
             {isHovered ? (
               <props.homeIcons.icon className={classes.icons} />
             ) : (
-              <props.homeIcons.icon className={classes.icon} />
+              <props.homeIcons.icon
+                className={classes.icon}
+                sx={{ paddingBottom: "0px" }}
+              />
             )}
           </IconButton>
         </CardContent>
