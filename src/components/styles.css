@@ -37,8 +37,7 @@
 }
 
 .buttonStyles:hover {
-  background-color: #5d8c96;
-  color: #5f0c16;
+  color: red;
 }
 
 /* contact button */

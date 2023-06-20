@@ -6,7 +6,7 @@ import Contact from "./pageComponents/Contact";
 import PriceEstimate from "./pageComponents/PriceEstimate";
 import Services from "./pageComponents/Services";
 import AboutUs from "./pageComponents/AboutUs";
-import FooterMenu from "./components/FooterMenu";
+import Footer from "./components/Footer";
 import NeedHelp from "./components/NeedHelp";
 import HamburgerMenu from "./components/HamburgerMenu";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -41,7 +41,7 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="*" element={<Home />} />
       </Routes>
-      <FooterMenu />
+      <Footer />
     </ThemeProvider>
   );
 }
