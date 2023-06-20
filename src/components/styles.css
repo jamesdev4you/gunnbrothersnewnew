@@ -389,7 +389,7 @@
 }
 @media screen and (max-width: 1650px) {
   .contact-button {
-    width: 40%;
+    width: 60%;
   }
 
   .header-boxwordsone {
@@ -487,7 +487,7 @@
 
 @media screen and (max-width: 960px) {
   .contact-button {
-    width: 50%;
+    width: 80%;
   }
 
   .header-image {
@@ -532,7 +532,7 @@
 
 @media screen and (max-width: 690px) {
   .contact-button {
-    height: 100%;
+    height: 70%;
     font-size: 15px;
     padding: 10px;
   }
@@ -608,7 +608,7 @@
   }
 
   .header-boxwordsthree {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .component-title-header {
@@ -644,7 +644,7 @@
   }
 
   .header-boxwordsthree {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .component-title-header {
