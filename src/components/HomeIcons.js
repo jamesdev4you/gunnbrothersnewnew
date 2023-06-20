@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   icon: {
-    transform: "scale(1.2)",
+    transform: "scale(1.4)",
     color: "#95242a",
   },
   icons: {
@@ -79,11 +79,11 @@ export default function HomeIcons(props) {
       <div
         style={{
           textAlign: "center",
-          fontFamily: "Asap Condensed",
+          fontFamily: "Ubuntu",
           color: "#dd919d",
         }}
       >
-        <h2>{props.homeIcons.details}</h2>
+        <h2 style={{ fontFamily: "Ubuntu" }}>{props.homeIcons.details}</h2>
       </div>
     );
   }
@@ -94,6 +94,7 @@ export default function HomeIcons(props) {
         style={{
           color: "#95242a",
           fontSize: "30px",
+          fontFamily: "Ubuntu",
         }}
       >
         {props.homeIcons.name}

@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: local("Ubuntu"), url(../fonts/Ubuntu-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Normal";
+  src: local("Ubuntu"), url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+}
+
 /* Home Page */
 .HomePadding {
   padding-left: 150px;
@@ -16,6 +26,7 @@
   font-family: "Asap Condensed", sans-serif;
   font-size: 30px;
   text-align: center;
+  font-family: "Ubuntu";
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
     1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
@@ -47,6 +58,7 @@
   text-decoration: none;
   border: 1px solid black;
   border-radius: 5px;
+  font-family: "Normal";
 }
 
 .contact-button:hover {
@@ -78,6 +90,7 @@
   align-items: flex-start;
   flex-direction: column;
   padding: 30px;
+  background-color: rgba(0, 0, 0, 0.24);
 }
 
 .align-row {
@@ -99,7 +112,7 @@
 .header-boxwordsone {
   color: white;
   font-family: "Asap Condensed", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
@@ -108,12 +121,13 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
+  font-family: "Ubuntu";
 }
 
 .header-boxwordstwo {
   color: white;
   font-family: "Asap Condensed", sans-serif;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
@@ -122,12 +136,13 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
+  font-family: "Ubuntu";
 }
 
 .header-boxwordsthree {
   color: white;
   font-family: "Asap Condensed", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
@@ -136,6 +151,7 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
+  font-family: "Ubuntu";
 }
 
 /* Home Page Section */
@@ -171,29 +187,32 @@
 .home-page-section-text-container {
   width: 100%;
   max-width: 500px;
-  height: 192px;
+  height: "auto";
   border: 3px solid #95242a;
   border-radius: 5px;
   background-color: #c1d8de;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 5px;
+  padding: 15px;
   margin-bottom: 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Normal";
 }
 
 .home-page-section-text {
   text-align: center;
   font-family: "Asap Condensed";
   color: #95242a;
-  font-size: 22px;
+  font-size: 20px;
+  font-family: "Normal";
 }
 
 /* grid */
 
 .description.grid {
   font-size: 15px;
+  font-family: "Normal";
 }
 
 /* component title */
@@ -210,7 +229,7 @@
 .component-title-header {
   color: white;
   font-family: "Asap Condensed", sans-serif;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
@@ -219,6 +238,7 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
+  font-family: "Ubuntu";
 }
 
 /* footer */
@@ -233,6 +253,10 @@
   justify-content: space-between;
   padding: 25px;
   border-top: 1px solid black;
+}
+
+.footer-phone {
+  padding-right: 8%;
 }
 
 .footerGunnLogo {
@@ -298,7 +322,7 @@
 
 .to-do-section-desc-text {
   text-align: center;
-  font-family: "Asap Condensed";
+  font-family: "Ubuntu";
   font-size: 20px;
 }
 
@@ -323,6 +347,7 @@
   font-size: 15px;
   text-align: center;
   padding-top: 15px;
+  font-family: "Ubuntu";
 }
 
 .To-Do-Icons {
@@ -344,15 +369,15 @@
   }
 
   .header-boxwordsone {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .header-boxwordstwo {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .header-boxwordsthree {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .HomePadding {
@@ -381,15 +406,19 @@
 
 @media screen and (max-width: 1190px) {
   .header-boxwordsone {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .header-boxwordstwo {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .header-boxwordsthree {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .header-line {
+    display: none;
   }
 
   .HomePadding {
@@ -456,27 +485,20 @@
 
 @media screen and (max-width: 830px) {
   .header-image-div {
-    justify-content: flex-start;
-    padding-top: 65px;
-  }
-  .header-line {
-    width: 3%;
-    border: 2px solid #5f0c16;
-    padding: 0;
-    margin: 2px;
+    justify-content: center;
+    height: "auto";
   }
 
   .header-boxwordsone {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .header-boxwordstwo {
-    font-size: 33px;
+    font-size: 30px;
   }
 
   .header-boxwordsthree {
-    padding-top: 30px;
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .footerGunnLogo {
@@ -486,8 +508,9 @@
 
 @media screen and (max-width: 690px) {
   .contact-button {
-    height: 60%;
+    height: 100%;
     font-size: 15px;
+    padding: 10px;
   }
 
   .header-image-div {
@@ -503,9 +526,10 @@
 
 @media screen and (max-width: 670px) {
   .header-image-div {
-    justify-content: flex-start;
-    padding-top: 70px;
+    justify-content: center;
+
     margin-left: 0px;
+    height: "auto";
   }
 
   .to-do-section-image {
@@ -515,11 +539,11 @@
   }
 
   .header-boxwordsone {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .header-boxwordstwo {
-    font-size: 28px;
+    display: none;
   }
 
   .header-boxwordsthree {
@@ -537,7 +561,7 @@
   }
 
   .header-boxwordsone {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .header-boxwordstwo {
@@ -561,21 +585,15 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .header-line {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 380px) {
   .header-image-div {
-    min-width: 200px;
+    min-width: 300px;
     padding-top: 43px;
-    height: 350px;
+    height: auto;
   }
 
   .header-boxwordsone {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .header-boxwordstwo {
@@ -584,12 +602,17 @@
   }
 
   .header-boxwordsthree {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .component-title-header {
-    font-size: 23px;
+    font-size: 30px;
   }
+
+  .footer-phone {
+    padding: none;
+  }
+
   .footerInstagram {
     display: none;
   }

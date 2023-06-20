@@ -36,11 +36,7 @@ export default function FooterMenu() {
           </Typography>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-        }}
-      >
+      <div className="footer-phone">
         <PhoneIcon style={{ color: "#95242a", paddingTop: "3px" }} />
         <Link
           href="tel:8139652281"
@@ -62,7 +58,10 @@ export default function FooterMenu() {
           }}
         >
           <InstagramIcon
-            onClick={(event) => (window.location.href = "https://www.instagram.com/gunnbrothershvacllc/")}
+            onClick={(event) =>
+              (window.location.href =
+                "https://www.instagram.com/gunnbrothershvacllc/")
+            }
             style={{
               color: "#95242a",
               width: 100,

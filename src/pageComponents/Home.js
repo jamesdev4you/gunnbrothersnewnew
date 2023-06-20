@@ -25,7 +25,7 @@ const boxWords = {
 };
 
 const titleWords = {
-  word1: "What do you need help with?",
+  word1: "How can we help you?",
   word2: "Insulation",
   word3: "HVAC",
 };
@@ -49,7 +49,7 @@ export default function Home() {
       to: "/serviceestimate",
     },
     icon2: {
-      name: "Any Questions",
+      name: "Questions",
       icon: QuestionMark,
       details:
         "If you have any questions feel free to call us up or contact us though the website! We will be happy to give you any advice!",
