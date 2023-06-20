@@ -29,17 +29,17 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <NeedHelp />
+
       <HamburgerMenu color="primary" colors="secondary" />
+      <NeedHelp />
       <Routes>
-      
         <Route path="/" element={<Home />} />
 
         <Route path="/contact" element={<Contact />} />
         <Route path="/serviceestimate" element={<PriceEstimate />} />
         <Route path="/services" element={<Services />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/*" element={<AboutUs />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <FooterMenu />
     </ThemeProvider>

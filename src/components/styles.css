@@ -154,6 +154,25 @@
   font-family: "Ubuntu";
 }
 
+/* NEED HELP? */
+.boxStyles {
+  width: 100%;
+  height: "auto";
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #a0c3cc;
+}
+
+.phoneStyles {
+  color: black;
+  transform: scale(1.2);
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
 /* Home Page Section */
 .home-page-section-div {
   width: 80%;
@@ -567,8 +586,17 @@
 }
 
 @media screen and (max-width: 670px) {
+  .boxStyles {
+    height: "auto";
+  }
+
   .text {
-    display: none;
+    font-size: 18px;
+  }
+
+  .phoneStyles {
+    transform: scale(0.8);
+    margin-bottom: 5px;
   }
 
   .header-boxwordsone {

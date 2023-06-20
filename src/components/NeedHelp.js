@@ -15,30 +15,13 @@ export default function NeedHelp() {
     },
   };
 
-  const boxStyles = {
-    width: "100%",
-    height: "90px",
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#5d8c96",
-  };
-
-  const phoneStyles = {
-    color: "#95242a",
-    marginLeft: "20px",
-    marginRight: "5px",
-  };
-
   return (
-    <Box sx={boxStyles}>
+    <Box className="boxStyles">
       <h1 className="text">Hey, Need Help?</h1>
-      <PhoneIcon sx={phoneStyles} />
       <Button
-        style={{
-          color: "#95242a",
-          fontSize: "30px",
+        sx={{
+          color: "black",
+          fontSize: { xs: "18px", lg: "30px" },
           "&:hover": {
             backgroundColor: "#5d8c96",
             color: "#5f0c16",
@@ -48,6 +31,7 @@ export default function NeedHelp() {
         href="tel:8139652281"
         variant="text"
       >
+        <PhoneIcon className="phoneStyles" />
         813-965-2281
       </Button>
     </Box>
