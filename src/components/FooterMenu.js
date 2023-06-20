@@ -37,15 +37,15 @@ export default function FooterMenu() {
         </div>
       </div>
       <div className="footer-phone">
-        <PhoneIcon style={{ color: "#95242a", paddingTop: "3px" }} />
+        <PhoneIcon style={{ color: "#DB0F27" }} />
         <Link
           href="tel:8139652281"
           underline="none"
           style={{
-            fontSize: "20px",
+            fontSize: "29px",
             marginLeft: "5px",
-            color: "#95242a",
-            "&:hover": { color: "#95242a" },
+            color: "#DB0F27",
+            "&:hover": { color: "#DB0F27" },
           }}
         >
           813-965-2281
@@ -63,7 +63,7 @@ export default function FooterMenu() {
                 "https://www.instagram.com/gunnbrothershvacllc/")
             }
             style={{
-              color: "#95242a",
+              color: "#DB0F27",
               width: 100,
               height: 100,
             }}

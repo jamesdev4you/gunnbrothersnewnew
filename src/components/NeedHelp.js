@@ -11,7 +11,7 @@ export default function NeedHelp() {
     padding: "auto",
     "&:hover": {
       backgroundColor: "#5d8c96",
-      color: "#5f0c16",
+      color: "#DB0F27",
     },
   };
 
@@ -39,7 +39,6 @@ export default function NeedHelp() {
         style={{
           color: "#95242a",
           fontSize: "30px",
-          padding: "auto",
           "&:hover": {
             backgroundColor: "#5d8c96",
             color: "#5f0c16",
