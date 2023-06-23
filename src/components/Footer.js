@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
+import { NavLink } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import IconButton from "@material-ui/core/IconButton";
 import "../index.css";
@@ -53,48 +53,66 @@ export default function Footer() {
             {" "}
             Pages{" "}
           </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            <Link href="/home" sx={{ textDecoration: "none", color: "black" }}>
-              {" "}
-              Home{" "}
-            </Link>
-          </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            {" "}
-            <Link
-              href="/contact"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              Contact
-            </Link>{" "}
-          </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            {" "}
-            <Link
-              href="/serviceestimate"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              Service Estimate
-            </Link>{" "}
-          </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            {" "}
-            <Link
-              href="/services"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              Services
-            </Link>{" "}
-          </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            {" "}
-            <Link
-              href="/aboutus"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              About Us
-            </Link>{" "}
-          </Typography>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/home"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/contact"
+          >
+            Contact
+          </NavLink>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/serviceestimate"
+          >
+            Service Estimate
+          </NavLink>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/services"
+          >
+            Services
+          </NavLink>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/aboutus"
+          >
+            About Us
+          </NavLink>
         </Box>
         <Box
           sx={{
@@ -122,24 +140,30 @@ export default function Footer() {
             {" "}
             Services{" "}
           </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            {" "}
-            <Link
-              href="/services"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              Insulation
-            </Link>{" "}
-          </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            {" "}
-            <Link
-              href="/services"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              HVAC
-            </Link>{" "}
-          </Typography>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/services"
+          >
+            Insulation
+          </NavLink>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "18px",
+              margin: "3px",
+            }}
+            to="/services"
+          >
+            HVAC
+          </NavLink>
         </Box>
         <Box
           sx={{
@@ -167,14 +191,18 @@ export default function Footer() {
             {" "}
             Contact{" "}
           </Typography>
-          <Typography sx={{ fontFamily: "Ubuntu" }}>
-            <Link
-              href="tel:8139652281"
-              sx={{ textDecoration: "none", color: "black" }}
-            >
-              813-965-2281{" "}
-            </Link>{" "}
-          </Typography>
+          <NavLink
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Ubuntu",
+              fontSize: "16px",
+              margin: "3px",
+            }}
+            to="/contact"
+          >
+            813-965-2281
+          </NavLink>
           <IconButton
             sx={{ padding: "0px", "&:hover": { backgroundColor: "none" } }}
           >
