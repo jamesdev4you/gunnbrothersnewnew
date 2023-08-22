@@ -32,7 +32,7 @@ const center = { lat: 27.97173, lng: -82.42262 };
 
 export default function PriceEstimate() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyATRLF-rvQAyXl1fkGpHqaTfW-s1RPP1iI',
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries: ["places"],
   });
 
