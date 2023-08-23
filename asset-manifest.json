@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30bdf250.css",
-    "main.js": "/static/js/main.7388cc88.js",
+    "main.js": "/static/js/main.5d359b7e.js",
     "static/media/priceestimateimg.jpg": "/static/media/priceestimateimg.7d9e4e58aecd7a73814a.jpg",
     "static/media/aboutus.jpg": "/static/media/aboutus.8ee9198e91424ef31cfd.jpg",
     "static/media/ServiceInsulation.jpg": "/static/media/ServiceInsulation.0ab674ad36f2170c47a3.jpg",
@@ -19,10 +19,10 @@
     "static/media/Logo.png": "/static/media/Logo.0ebe3285fbefbd0c40b9.png",
     "index.html": "/index.html",
     "main.30bdf250.css.map": "/static/css/main.30bdf250.css.map",
-    "main.7388cc88.js.map": "/static/js/main.7388cc88.js.map"
+    "main.5d359b7e.js.map": "/static/js/main.5d359b7e.js.map"
   },
   "entrypoints": [
     "static/css/main.30bdf250.css",
-    "static/js/main.7388cc88.js"
+    "static/js/main.5d359b7e.js"
   ]
 }
