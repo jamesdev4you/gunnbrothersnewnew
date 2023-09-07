@@ -62,7 +62,7 @@ export default function Contact() {
 
   return (
     <div style={{ paddingBottom: '150px' }}>
-      <HeaderImage boxWords={boxWords} src={ContactPic} />
+      <HeaderImage boxWords={boxWords} src={ContactPic} contactButton={Card} />
       <ComponentTitle words={boxWords.word4} />
       <Card
         style={{

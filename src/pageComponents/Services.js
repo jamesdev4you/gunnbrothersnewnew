@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   FindReplace,
   AcUnit,
@@ -6,34 +6,35 @@ import {
   Handyman,
   Hvac,
   Plumbing,
-} from "@mui/icons-material";
-import Service from "../assets/Service.jpg";
-import ServiceHvac from "../assets/ServiceHvac.jpg";
-import ServiceInuslation from "../assets/ServiceInsulation.jpg";
-import HeaderImage from "../components/HeaderImage";
-import ToDoComponent from "../components/ToDoComponent";
+} from '@mui/icons-material';
+import Service from '../assets/Service.jpg';
+import ServiceHvac from '../assets/ServiceHvac.jpg';
+import ServiceInuslation from '../assets/ServiceInsulation.jpg';
+import HeaderImage from '../components/HeaderImage';
+import ToDoComponent from '../components/ToDoComponent';
+import ContactButton from '../components/ContactButton.js';
 
 const boxWords = {
-  word1: "HVAC AND INSULATION",
-  word2: "DONE SIMPLE AND EASY!",
-  word3: "See what our professsional techncians can do for you!",
+  word1: 'HVAC AND INSULATION',
+  word2: 'DONE SIMPLE AND EASY!',
+  word3: 'See what our professsional techncians can do for you!',
 };
 
 const desc = {
   desc1:
-    "HVAC systems regulate temperature, humidity, and air quality in a building. Proper design and maintenance can improve indoor comfort, energy efficiency, and lower utility bills.",
+    'HVAC systems regulate temperature, humidity, and air quality in a building. Proper design and maintenance can improve indoor comfort, energy efficiency, and lower utility bills.',
   desc2:
-    "Insulation reduces heat transfer and improves energy efficiency in a building, typically installed in walls, floors, and ceilings. It can reduce heating and cooling costs.",
+    'Insulation reduces heat transfer and improves energy efficiency in a building, typically installed in walls, floors, and ceilings. It can reduce heating and cooling costs.',
 };
 
-const insulationTitle = "Insulation Services";
-const hvacTitle = "HVAC Services";
+const insulationTitle = 'Insulation Services';
+const hvacTitle = 'HVAC Services';
 
 const icons = {
   icon1: {
     icon: FindReplace,
     details:
-      "Insulation replacement involves removing old or damaged insulation from a building and installing new, more efficient insulation. This can increase overall comfort and air quality within the building.",
+      'Insulation replacement involves removing old or damaged insulation from a building and installing new, more efficient insulation. This can increase overall comfort and air quality within the building.',
   },
   icon2: {
     icon: AcUnit,
@@ -48,24 +49,28 @@ const icons = {
   icon4: {
     icon: Handyman,
     details:
-      "Maintaining HVAC systems involves regular inspection, cleaning, and repair to ensure proper and efficient functioning.",
+      'Maintaining HVAC systems involves regular inspection, cleaning, and repair to ensure proper and efficient functioning.',
   },
   icon5: {
     icon: Hvac,
     details:
-      "Upgrading HVAC systems involves replacing outdated or inefficient components with newer, more advanced equipment to improve energy efficiency, indoor comfort, and air quality. It can also increase the value of a building!",
+      'Upgrading HVAC systems involves replacing outdated or inefficient components with newer, more advanced equipment to improve energy efficiency, indoor comfort, and air quality. It can also increase the value of a building!',
   },
   icon6: {
     icon: Plumbing,
     details:
-      "HVAC ductwork transports air throughout a building for heating, ventilation, and air conditioning. Proper design and maintenance can improve energy efficiency while preventing leaks and blockages.",
+      'HVAC ductwork transports air throughout a building for heating, ventilation, and air conditioning. Proper design and maintenance can improve energy efficiency while preventing leaks and blockages.',
   },
 };
 
 export default function Services() {
   return (
-    <div style={{ paddingBottom: "50px" }}>
-      <HeaderImage boxWords={boxWords} src={Service} />
+    <div style={{ paddingBottom: '50px' }}>
+      <HeaderImage
+        boxWords={boxWords}
+        src={Service}
+        contactButton={ContactButton}
+      />
       <ToDoComponent
         word={insulationTitle}
         src={ServiceInuslation}

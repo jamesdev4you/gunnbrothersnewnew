@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Ubuntu";
-  src: local("Ubuntu"), url(../fonts/Ubuntu-Bold.ttf) format("truetype");
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url(../fonts/Ubuntu-Bold.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Normal";
-  src: local("Ubuntu"), url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+  font-family: 'Normal';
+  src: local('Ubuntu'), url(../fonts/Ubuntu-Regular.ttf) format('truetype');
 }
 
 /* Home Page */
@@ -23,10 +23,10 @@
 
 .text {
   color: white;
-  font-family: "Asap Condensed", sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 30px;
   text-align: center;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
     1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
@@ -47,7 +47,7 @@
   align-items: center;
   justify-content: center;
   background-color: #95242a;
-  color: white;
+  color: black;
   margin-top: 25px;
   width: 30%;
   height: 100%;
@@ -55,13 +55,15 @@
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
-  font-family: "Normal";
+  font-family: 'Normal';
+  transition: all 0.7s ease;
 }
 
 .contact-button:hover {
   background-color: #ab0032;
+  color: white;
 }
 
 /* HEADER IMAGE STYLING*/
@@ -110,7 +112,7 @@
 
 .header-boxwordsone {
   color: white;
-  font-family: "Asap Condensed", sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 40px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
@@ -120,12 +122,12 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
 }
 
 .header-boxwordstwo {
   color: white;
-  font-family: "Asap Condensed", sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 60px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
@@ -135,12 +137,12 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
 }
 
 .header-boxwordsthree {
   color: white;
-  font-family: "Asap Condensed", sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 30px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
@@ -150,13 +152,13 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
 }
 
 /* NEED HELP? */
 .boxStyles {
   width: 100%;
-  height: "auto";
+  height: 'auto';
   padding: 15px 0px;
   display: flex;
   flex-direction: row;
@@ -194,7 +196,7 @@
   max-width: 500px;
   background-position: center;
   background-size: cover;
-  border: 3px solid #95242a;
+  border: 3px solid black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -205,32 +207,32 @@
 .home-page-section-text-container {
   width: 100%;
   max-width: 500px;
-  height: "auto";
-  border: 3px solid #95242a;
+  height: 'auto';
+  border: 3px solid black;
   border-radius: 5px;
-  background-color: #c1d8de;
+  background-color: #a0c3cc;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
   margin-bottom: 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-family: "Normal";
+  font-family: 'Normal';
 }
 
 .home-page-section-text {
   text-align: center;
-  font-family: "Asap Condensed";
-  color: #95242a;
+  font-family: 'Asap Condensed';
+  color: black;
   font-size: 20px;
-  font-family: "Normal";
+  font-family: 'Normal';
 }
 
 /* grid */
 
 .description.grid {
   font-size: 15px;
-  font-family: "Normal";
+  font-family: 'Normal';
 }
 
 /* component title */
@@ -246,7 +248,7 @@
 
 .component-title-header {
   color: white;
-  font-family: "Asap Condensed", sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 70px;
   text-align: center;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
@@ -256,7 +258,7 @@
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
 }
 
 /* footer */
@@ -283,7 +285,7 @@
 }
 
 .footerInstagram {
-  display: "flex";
+  display: 'flex';
 }
 
 /* Price Estimate */
@@ -343,7 +345,7 @@
   text-align: center;
   background-color: #c1d8de;
   color: #95242a;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
   font-size: 20px;
 }
 
@@ -370,7 +372,7 @@
   font-size: 18px;
   text-align: center;
   padding-top: 15px;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
 }
 
 .To-Do-Icons {
@@ -509,7 +511,7 @@
 @media screen and (max-width: 830px) {
   .header-image-div {
     justify-content: center;
-    height: "auto";
+    height: 'auto';
   }
 
   .header-boxwordsone {
@@ -558,7 +560,7 @@
     justify-content: center;
 
     margin-left: 0px;
-    height: "auto";
+    height: 'auto';
   }
 
   .to-do-section-image {
@@ -586,7 +588,7 @@
 
 @media screen and (max-width: 670px) {
   .boxStyles {
-    height: "auto";
+    height: 'auto';
   }
 
   .text {

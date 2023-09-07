@@ -17,6 +17,7 @@ import {
   Hvac,
   Plumbing,
 } from '@mui/icons-material';
+import ContactButton from '../components/ContactButton.js';
 
 const boxWords = {
   word1: 'IF YOUR HOME FEELS HOT',
@@ -108,7 +109,11 @@ export default function Home() {
 
   return (
     <div style={{ paddingBottom: '50px' }}>
-      <HeaderImage boxWords={boxWords} src={HomeBackground} />
+      <HeaderImage
+        boxWords={boxWords}
+        src={HomeBackground}
+        contactButton={ContactButton}
+      />
       <HomePageSection
         desc={homeSectionDescription.description1}
         word={titleWords.word1}
