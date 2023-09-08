@@ -29,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
+    
   },
   cardContent: {
     display: 'flex',
@@ -66,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function HomeIcons(props) {
   const [hoverRef, isHovered] = useHover();
+  const [open, setOpen] = useState(false);
 
   function useHover() {
     const [value, setValue] = useState(false);
@@ -142,9 +144,6 @@ export default function HomeIcons(props) {
         <CardActions className={classes.cardActions}>
           <div>{isHovered ? DescriptionDisplay() : null}</div>
         </CardActions>
-        <Collapse>
-          <CardContent></CardContent>
-        </Collapse>
       </Card>
     </Fragment>
   );

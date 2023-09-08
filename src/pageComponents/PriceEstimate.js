@@ -163,7 +163,7 @@ export default function PriceEstimate() {
             padding: '20px',
             height: '15%',
             padding: '10px',
-            backgroundColor: '#c1d8de',
+            backgroundColor: '#a0c3cc',
             borderLeft: '3px solid #95242a',
             borderRight: '3px solid #95242a',
             borderBottom: '3px solid #95242a',
