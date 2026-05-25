@@ -47,7 +47,7 @@
   align-items: center;
   justify-content: center;
   background-color: #95242a;
-  color: black;
+  color: white;
   margin-top: 25px;
   width: 30%;
   height: 100%;
@@ -64,6 +64,7 @@
 .contact-button:hover {
   background-color: #ab0032;
   color: white;
+  border-width: 3px;
 }
 
 /* HEADER IMAGE STYLING*/
@@ -285,7 +286,7 @@
 /* Price Estimate */
 
 .to-do-section {
-  width: 90%;
+  width: 50%;
   background-color: #d3d3d3;
   margin: auto;
   padding-bottom: 15px;
@@ -367,6 +368,7 @@
   text-align: center;
   padding-top: 15px;
   font-family: 'Ubuntu';
+  width: "50%";
 }
 
 .To-Do-Icons {
@@ -462,6 +464,10 @@
 
   .grid {
     margin: auto;
+  }
+
+  .grid:hover {
+    cursor: pointer;
   }
 }
 
